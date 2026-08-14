@@ -1,0 +1,70 @@
+body {
+    background-color: #1B3022;
+    margin: 0;
+}
+
+header {
+    height: 180px;
+
+    background-image: url("img-video/imagem-blog.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-shadow: 2px 2px 5px black;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+main {
+    background-color: #1B3022;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+article{
+    margin-bottom: 20px;
+}
+
+main h1,main h3{
+    color: #8B6F47;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+.botao-curtir {
+    background-color: #8FB996;
+}
+
+.botao-nao-curtir {
+    background-color: #E5989B;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
